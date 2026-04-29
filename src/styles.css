@@ -1,1 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'Funnel Display', sans-serif;
+  background: #F5F5F5;
+}
 
+.app {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.booth {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
+  width: 320px;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.button {
+  background: #213B2A;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
