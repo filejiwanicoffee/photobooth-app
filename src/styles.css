@@ -9,6 +9,12 @@ body {
   padding-top: 20px;
 }
 
+.title {
+  color: #213B2A;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
 .booth {
   background: #FFFFFF;
   padding: 20px;
@@ -18,12 +24,34 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
+.camera-wrapper {
+  position: relative;
+}
+
+.camera {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.countdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.4);
+  color: white;
+  font-size: 60px;
+  padding: 20px 30px;
+  border-radius: 20px;
+}
+
 .button {
   background: #213B2A;
   color: white;
   border: none;
-  padding: 10px 16px;
+  padding: 12px;
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 12px;
+  width: 100%;
   cursor: pointer;
 }
