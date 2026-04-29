@@ -7,7 +7,7 @@ export default function Result({ images }) {
   const download = async () => {
     const canvas = await html2canvas(ref.current);
     const link = document.createElement("a");
-    link.download = "photostrip.png";
+    link.download = "jiwani-photostrip.png";
     link.href = canvas.toDataURL();
     link.click();
   };
@@ -20,11 +20,16 @@ export default function Result({ images }) {
           width: "200px",
           margin: "auto",
           background: "white",
-          padding: "10px"
+          padding: "10px",
+          borderRadius: "10px"
         }}
       >
         {images.map((img, i) => (
-          <img key={i} src={img} style={{ width: "100%", marginBottom: "8px" }} />
+          <img
+            key={i}
+            src={img}
+            style={{ width: "100%", marginBottom: "8px", borderRadius: "10px" }}
+          />
         ))}
       </div>
 
