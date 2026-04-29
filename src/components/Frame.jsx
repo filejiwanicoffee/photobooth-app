@@ -1,7 +1,7 @@
 export default function Frame({ image }) {
   return (
     <div style={{ position: "relative" }}>
-      <img src={image} style={{ width: "100%" }} />
+      <img src={image} style={{ width: "100%", borderRadius: "15px" }} />
       <img
         src="/frames/frame1.png"
         style={{
