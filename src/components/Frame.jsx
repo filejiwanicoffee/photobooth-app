@@ -1,9 +1,9 @@
-export default function Frame({ image }) {
+export default function Frame({ image, frame }) {
   return (
     <div style={{ position: "relative" }}>
-      <img src={image} style={{ width: "100%", borderRadius: "15px" }} />
+      <img src={image} style={{ width: "100%" }} />
       <img
-        src="/frames/frame1.png"
+        src={frame}
         style={{
           position: "absolute",
           top: 0,
